@@ -1,0 +1,34 @@
+.input__container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    color: #00474B;
+    margin-bottom: 4px;
+}
+
+.input__container > input {
+    width: 100%;
+    padding: 10px;
+    background-color: #F4F8FB;
+    border-radius: 6px;
+    border: none;
+    box-sizing: border-box;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Space Mono', monospace;
+}
+
+.input__container > input::placeholder {
+    color: #A1BCBE;
+}
+
+.input__container > input:focus {
+    outline: 4px solid #9FE8DF
+}
